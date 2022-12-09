@@ -1,0 +1,46 @@
+@import "./style.css";
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://res.cloudinary.com/dycoseuyv/image/upload/v1670523442/advincy/fondo-navidad-1_m33xkw.jpg");
+    background-size: 100%;
+}
+
+.container{
+    background-color: white;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+}
+
+.gift-list{
+    background-color: white;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+ul{
+    padding: 0px;
+    font-size: 26px;
+    padding-left: 25px;
+}
+
+p{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: rgb(54, 142, 54);
+    padding: 20px;
+    padding-left: 25px;
+}
+
+#santa-icon{
+    position: relative;
+    float: right;
+    right: 65px;
+    margin-top: 5px;
+}
