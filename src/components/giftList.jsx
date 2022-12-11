@@ -1,8 +1,10 @@
+import { useState } from "react";
+import InputBar from "./inputBar";
 import "../css/giftList.css";
 
 export default function GiftList() {
 
-    let listOfGifts = ["Buzo", "Remera", "Bermuda"];
+    const [listOfGifts, setListOfGifts] = useState([]);
 
     return (
         <div className="container">
@@ -17,6 +19,7 @@ export default function GiftList() {
                 <p>Regalos</p>
             </div>
             <div className="gift-list">
+                <InputBar listOfGifts={listOfGifts} setListOfGifts={setListOfGifts}/>
                 {
                     listOfGifts.map(gift => {
                         return (
