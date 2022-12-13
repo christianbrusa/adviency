@@ -28,6 +28,10 @@ ul{
     margin: 15px;
 }
 
+li{
+    list-style:none;
+}
+
 p{
     font-size: 48px;
     font-weight: bold;
@@ -43,4 +47,19 @@ p{
     float: right;
     right: 50px;
     margin-top: 5px;
+}
+
+#delete-button{
+    border-style: none;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+#delete-icon{
+    max-width: 20px;
+    margin-left: 5px;
+    border-style: none;
+    margin: 0px;
+    padding: 0px;
 }

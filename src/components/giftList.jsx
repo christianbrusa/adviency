@@ -6,6 +6,11 @@ export default function GiftList() {
 
     const [listOfGifts, setListOfGifts] = useState([]);
 
+    function removeGift(selectedGift){
+        let newlistOfGifts = listOfGifts.filter(gift => gift != selectedGift);
+        setListOfGifts(newlistOfGifts);
+    }
+
     return (
         <div className="container">
             <div>
@@ -24,9 +29,12 @@ export default function GiftList() {
                     listOfGifts.map(gift => {
                         return (
                             <ul>
-                                <lu>
+                                <li>
                                     {gift}
-                                </lu>
+                                    <button id="delete-button" onClick={() => removeGift(gift)}>
+                                    <img id="delete-icon" src="https://res.cloudinary.com/dycoseuyv/image/upload/v1670898341/advincy/delete-icon_xmuw21.png" />
+                                    </button>
+                                </li>
                             </ul>
                         )
                     })
