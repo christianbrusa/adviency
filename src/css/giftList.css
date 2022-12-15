@@ -18,7 +18,7 @@ body{
     padding-bottom: 0px;
     text-align: left;
     width: 350px;
-    height: 350px;
+    height: 300px;
 }
 
 ul{
@@ -62,4 +62,9 @@ p{
     border-style: none;
     margin: 0px;
     padding: 0px;
+}
+
+.delete-all-button{
+    background-color: white;
+    padding-bottom: 15px;
 }

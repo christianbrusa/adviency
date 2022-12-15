@@ -11,6 +11,10 @@ export default function GiftList() {
         setListOfGifts(newlistOfGifts);
     }
 
+    function removeAllGifts(){
+        setListOfGifts([]);
+    }
+
     return (
         <div className="container">
             <div>
@@ -39,6 +43,9 @@ export default function GiftList() {
                         )
                     })
                 }
+            </div>
+            <div className="delete-all-button">
+                <button type="button" class="btn btn-danger" onClick={() => removeAllGifts()}>Borrar todo</button>
             </div>
         </div>
     )
