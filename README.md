@@ -10,3 +10,5 @@ Día 4: Papa noel no estuvo muy contento con la demanda de regalos, vamos a tene
 
 Día 5: La gente está muy indecisa y agrega muchos regalos y después los debe borrar de a uno! Agreguemos un botón para eliminar todos los regalos a la vez!
 
+Día 6: Nuestra aplicación no se ve muy bien cuando no hay regalos, agreguemos un mensaje alentando a agregar regalos cuando no haya ninguno!
+
