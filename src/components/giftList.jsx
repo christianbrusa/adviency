@@ -32,14 +32,20 @@ export default function GiftList() {
                 {
                     listOfGifts.map(gift => {
                         return (
-                            <ul>
-                                <li>
-                                    {gift}
+                            <div class="row g-4">
+                                <div class="col-sm-6 col-md-8">
+                                    <ul>
+                                        <li>
+                                            {gift}
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6 col-md-4" id="delete-button-column">
                                     <button id="delete-button" onClick={() => removeGift(gift)}>
-                                    <img id="delete-icon" src="https://res.cloudinary.com/dycoseuyv/image/upload/v1670898341/advincy/delete-icon_xmuw21.png" />
+                                        <img id="delete-icon" src="https://res.cloudinary.com/dycoseuyv/image/upload/v1670898341/advincy/delete-icon_xmuw21.png" />
                                     </button>
-                                </li>
-                            </ul>
+                                </div>
+                            </div>
                         )
                     })
                 }
