@@ -1,0 +1,7 @@
+@import "./style.css";
+
+.empty-gift-list-message{
+    line-height: 200px;
+    text-align: center;
+    font-size: 28px;
+}

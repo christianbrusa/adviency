@@ -1,5 +1,6 @@
 import { useState } from "react";
 import InputBar from "./inputBar";
+import EmptyGiftList from "./emptyGiftList";
 import "../css/giftList.css";
 
 export default function GiftList() {
@@ -30,6 +31,7 @@ export default function GiftList() {
             <div className="gift-list">
                 <InputBar listOfGifts={listOfGifts} setListOfGifts={setListOfGifts}/>
                 {
+                    listOfGifts.length == 0 ? <EmptyGiftList/> :
                     listOfGifts.map(gift => {
                         return (
                             <div class="row g-4">
