@@ -12,3 +12,5 @@ Día 5: La gente está muy indecisa y agrega muchos regalos y después los debe 
 
 Día 6: Nuestra aplicación no se ve muy bien cuando no hay regalos, agreguemos un mensaje alentando a agregar regalos cuando no haya ninguno!
 
+Día 7: Tuvimos algunos reportes de regalos vacíos o repetidos, asegurmosnos que la gente solo pueda agregar un regalo si escribió algo y si ese regalo no está ya en la lista!
+
