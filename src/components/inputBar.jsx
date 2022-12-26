@@ -11,7 +11,7 @@ export default function InputBar({listOfGifts, setListOfGifts}) {
     }
 
     function addGift(){
-        if(text){
+        if(text && !listOfGifts.includes(text)){
             setListOfGifts([...listOfGifts, text]);
         }
     }
