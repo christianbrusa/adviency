@@ -6,7 +6,7 @@ body{
     align-items: center;
     min-height: 100vh;
     background-image: url("https://res.cloudinary.com/dycoseuyv/image/upload/v1670523442/advincy/fondo-navidad-1_m33xkw.jpg");
-    background-size: 100%;
+    background-size: cover;
 }
 
 .container{
