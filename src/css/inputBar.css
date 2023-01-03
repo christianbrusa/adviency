@@ -7,3 +7,32 @@
 .form-control{
     margin-right: 15px;
 }
+
+.itemCount{
+    display: flex;
+    width: 150px;
+    margin-right: 15px;
+}
+
+#add, #remove, #quantity{
+    width: 100%;
+    background-color: white;
+    font-family:'Segoe UI';
+    font-size: 20px;
+    text-align: center;
+    border: none;
+}
+
+#add, #remove{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#add{
+    color: green;
+}
+
+#remove{
+    color: red;
+}
+
