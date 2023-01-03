@@ -32,7 +32,7 @@ export default function InputBar({listOfGifts, setListOfGifts}) {
         <>
             <div className="form">
                 <input type="search" className="form-control" onChange={(e) => handleGiftName(e)}/>
-                <div className="itemCount">
+                <div className="item-count">
                     <button id= "add" onClick={increase}>+</button>
                     <input id= "quantity" value={quantity}></input>
                     <button id= "remove" onClick={decrease}>-</button>
